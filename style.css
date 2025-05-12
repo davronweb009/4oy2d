@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    transition: background-color 0.5s ease;
+    list-style: none;
+    text-decoration: none;
+    font-family:  Arial, Helvetica, sans-serif}
+.container{
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items:    center;
+    height: 100vh;
+    background-color: #e5e5e5;
+    gap: 30px;
+}
+nav{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-radius: 10px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff4a;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    width: 44%;
+    background-color: transparent   ;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff4a;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    
+}
+::placeholder{
+    color: #000;
+}
+.btn{
+    background-color: #008cff;
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition:0.7s;
+    color: #fff6d0;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: #1100ff;
+    transform: scale(1.1);
+}
+
+#darkMode{
+    background-color: #008cff;
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition:0.7s;
+    color: #fff6d0;
+    font-weight: bold;
+}
+#darkMode:hover{
+    background-color: #1100ff;
+    transform: scale(1.1);
+}
+body.dark-mode {
+    background-color: #333;
+    color: white;
+  }
+
+.dark-mode nav{
+    background-color: #09004d;
+    color: #fff;
+}
+.dark-mode .container{
+    background-color: #000126;
+}
+.edit-btn{
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 28px;
+    background-color: #004cff59;
+    border-radius: 10px;
+    width: 50px;
+    color: white;
+}
+.delete-btn{
+    color: black;
+    background-color: red;
+    font-size: 28px;
+    border-radius: 10px;
+    border: none;
+    width: 50px;
+}
+#contactList{
+    width: 44%;
+    background-color: #001f6859;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+li{
+    width: 40%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: rgba(0, 0, 255, 0.31);
+    border-radius: 8px;
+    border: none;
+    color: white;
+}
+span{
+    background-color: transparent;
+}
